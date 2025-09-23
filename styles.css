@@ -189,12 +189,63 @@ header {
     font-size: clamp(0.9rem, 3vw, 1rem);
 }
 
+.imagem-sobre {
+    width: 100%;
+    height: 100%;
+
+}
+
+.texto-sobre h2 {
+    margin-bottom: 1rem;
+    color: #4A90E2;
+    font-size: clamp(1.2rem, 4vw, 1.5rem);
+}
+
+.texto-sobre {
+    background: #f9f9f9;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+}
+
+.texto-sobre p {
+    font-size: clamp(0.9rem, 3vw, 1rem);
+}
+
+footer {
+
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start; /* Alinha os itens no topo */
+  padding: 20px;
+  background-color: #f0f0f0; /* Cor de fundo */
+}
+
+footer > div {
+  flex: 1; /* Faz com que cada div ocupe o mesmo espaço */
+  margin: 0 10px; /* Adiciona margem lateral */
+}
+
+footer h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+footer p {
+  font-size: 1em;
+  line-height: 1.4em;
+
+}
+
 footer {
     background: #333;
     color: white;
     text-align: center;
     padding: 1rem 0;
     margin-top: 2rem;
+
+    
 }
 
 .footer-container {
@@ -206,6 +257,71 @@ footer {
 .footer-container p {
     font-size: clamp(0.8rem, 3vw, 0.9rem);
 }
+
+/*sessão de ajuda la em sobre */
+
+.ajuda-associacao {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.texto-apelativo {
+  margin-bottom: 20px;
+}
+
+.texto-apelativo h2 {
+  color: #333;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.meios-doacao {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.meios-doacao > div {
+  width: 30%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.qr-code img {
+  max-width: 150px;
+}
+
+.contas-bancarias {
+  display: flex; /* Usamos flexbox para alinhar os bancos lado a lado */
+  flex-direction: row;
+  justify-content: center; /* Espaço entre os bancos */
+  gap: 12rem;
+
+}
+
+.contas-bancarias > div {
+  width: 45%; /* Largura para cada banco */
+  text-align: center; /* Alinha o texto à esquerda */
+ 
+}
+
+.gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }.gallery img {
+      width: 150px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+
+
+
+
+
 
 /* Media Queries para Responsividade */
 @media (max-width: 768px) {
