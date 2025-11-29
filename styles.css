@@ -10,6 +10,11 @@ body {
     color: #333;
 }
 
+.pagamento {
+    display: none;
+
+}
+
 header {
     background: #4A90E2;
     color: white;
@@ -352,3 +357,4 @@ footer img {
         padding: 1rem;
     }
 }
+
